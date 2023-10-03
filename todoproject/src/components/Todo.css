@@ -1,0 +1,105 @@
+.gradient-custom {
+    background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
+      linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
+      linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
+      radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
+      radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+    background-blend-mode: screen, color-dodge, overlay, difference, normal;
+    height: 800px;
+    margin:auto;
+    padding-top:100px;
+    
+  }
+.body{
+    
+    width:70vw;
+    background: white;
+   
+    margin:auto;
+    border-radius: 0.5em;
+    
+    
+}
+.inputouter{
+    padding-top: 40px;
+    padding-left: 10px;
+}
+.input{
+    width:53vw;
+
+   padding-top: 15px;
+   padding-bottom:15px;
+   border-radius: 0.5em;
+}
+.btn{
+    padding-top:15px;
+    padding-bottom:15px;
+    background:lightblue;
+    width:50px;
+    border-radius:0.5em;
+    border-color: white;
+    cursor:pointer;
+}
+
+.status{
+  padding-top:20px;
+  margin-left:8vw;
+  text-align: left;
+  padding-bottom:30px;
+ 
+}
+
+.bt1{
+  padding: 10px;
+  margin-left: 10px;
+  border-radius:0.5em;
+  border-color: white;
+  cursor:pointer;
+}
+.bt2{
+  padding: 10px;
+  margin-left: 10px;
+  border-radius:0.5em;
+  border-color: white;
+  cursor:pointer;
+}
+.bt3{
+  padding: 10px;
+  margin-left: 10px;
+  border-radius:0.5em;
+  border-color: white;
+  cursor:pointer;
+}
+.list{
+  padding-bottom:30px;
+  padding-top: 10px;
+  padding-left: 10%;
+  
+
+}
+
+.innerlist{
+  width:55vw;
+  padding: top 4px;
+  padding-bottom:4px;
+  border-radius: 0.5em;
+  background:rgb(3, 35, 46);
+  color:white;
+  display: flex;
+
+  
+}
+.check{
+  padding-left: 6%;
+  padding-top:20px;
+}
+
+.text{
+  padding-left:60px;
+}
+
+.del{
+  padding-top:25px;
+  margin-left: auto;
+  padding-right: 6%;
+}

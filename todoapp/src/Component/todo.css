@@ -1,0 +1,71 @@
+.outer{
+    background:crimson;
+    width:70vw;
+    margin:auto;
+    margin-top: 10px;
+    border-radius:10px;
+    padding:15px;
+    color:white;
+    border: 2px solid black;
+   
+   
+}
+
+.header{
+    font-size :1em;
+    text-align:center;
+}
+.input-container{
+    color:crimson;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border:2px solid white;
+}
+.input{
+    font-size: 1.2em;
+    font-weight:bold;
+    color:black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius:1em;
+    padding : .5em;
+    margin:2px;
+    width:80%;
+
+
+}
+.btn{
+    border-radius:5px;
+    font-size:1.5em;
+    margin:2px;
+    padding:0px 15px;
+    border:none;
+    cursor:pointer;
+    color:red;
+    background-color: rgb(51, 171, 211);
+
+    
+}
+
+.list{
+    font-size:1.25em;
+    font-weight:bold;
+    color: blue;
+    font-style:italic;
+    background-color:crimson;
+    border-radius: 5px;
+    padding :0.5em;
+    border: 2px solid white;
+
+}
+
+.delete{
+    border-radius:5px;
+    margin:0px 5px;
+    padding :3px 5px;
+    border:none;
+    cursor:pointer;
+    color:black;
+    float:right;
+    background-color:yellow;
+}
