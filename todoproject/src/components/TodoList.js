@@ -15,6 +15,7 @@ const TodoList = () => {
   const handleButtonClick = (btn_name)=>{
     setSelectbutton(btn_name)
   }
+  const [display,setDisplay] = useState('haiii')
 
   const filterTasks = (selectedButton) =>{
     if (selectedButton==='button1'){
