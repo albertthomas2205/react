@@ -15,7 +15,7 @@ const TodoList = () => {
   const handleButtonClick = (btn_name)=>{
     setSelectbutton(btn_name)
   }
-  const [display,setDisplay] = useState('haiii')
+
 
   const filterTasks = (selectedButton) =>{
     if (selectedButton==='button1'){
@@ -30,18 +30,24 @@ const TodoList = () => {
   }
 
   const addTask = (value) => {
-    const isTaskExist = tasks.some(task => task.title ===value);
-    if (isTaskExist){
-      alert(' Task is already added to the ToDos...')
-
-    }else{
+   
       
-    const newTask = [...tasks,{ title :value, status: false }] ;
+    const newTask = [...tasks,{ title :value, status: false ,key:Date.now()}] ;
     
     // Add the status field with a default value
     setTask(newTask);
 
-    }
+    
+
+  }
+
+  
+  const editTask = (key) =>{
+    const editTodo = tasks.filter((todo )=>todo.key === key)
+    console.log(editTodo.title)
+   
+    setTask(editTodo.title)
+
 
   }
 
@@ -59,6 +65,7 @@ const TodoList = () => {
     setTask(newTask); // Use setTasks to update the state
   };
  
+
 
 
 
@@ -99,7 +106,7 @@ const TodoList = () => {
     
    {filterTasks(selectedButton).map((task,index)=>(
 
-    <List task={task}  index={index} removeTask={removeTask} changeStatus={changeStatus} />
+    <List task={task}  index={index} removeTask={removeTask} changeStatus={changeStatus} editTask = {editTask} />
 
    ))
 
